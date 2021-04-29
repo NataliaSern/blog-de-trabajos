@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Narrow&display=swap'); 
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+}
+.banner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/presentacion2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.contenido {
+    height: 100vh;
+ }
+ .contenedor{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 50%;
+ }
+ .cuadrado{
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: rgb(100, 57, 0) 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 50px;
+    color: rgb(65, 37, 0);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+ }
+.sidebar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background: #eac8af;
+    color: black;
+    outline: 1px solid #d8ac9c;
+}
+.sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #d8ac9c;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li{
+    outline: 1px solid #d8ac9c;
+    transition: all 0.3s;
+}
+.sidebar li:hover{
+    background:  #d8ac9c;
+    border-left: 5px solid #7e7e7e;
+    outline: 1px solid #d8ac9c;
+    color:rgb(65, 37, 0) !important;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.barra{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    transition: all 0.6s;
+    box-sizing: border-box;
+}
+.menu-bar{
+    cursor: pointer;
+}
+.abrir{
+    transform: translateX(250px);
+}
+.navbar{
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+}
+.center-custom{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin-top: 40px;
+}
+.hablando{  
+    min-width: 50%;
+    border: rgb(100, 57, 0) 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: rgb(65, 37, 0);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.textos{
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.container20{
+    padding-top: 100px;
+    margin-top: -60px;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
